@@ -1,0 +1,173 @@
+body {
+    background: #f8f8f8;
+}
+
+.header{
+    height: 150px;
+}
+
+.header h1{
+    text-align: center
+}
+.logo{
+    float: left;
+    padding-right: 10px;
+    margin-left: 20px;
+}
+
+.menu {
+    color: darkgreen;
+    font: bold 1em Arial, Verdana;
+    list-style-type: none;
+    margin: 0 auto;
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    width: 120px;
+    text-align: center
+}
+
+.menu li a:link {
+    color: green;
+}
+
+.menu li a:link:hover:after {
+    content: "  >>>";
+    color: blue;
+}
+
+.menu li a:visited {
+    color: darkgreen;
+}
+
+.menu li a:visited:hover {
+    color: blue;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.short_descript {
+    display: inline-block;
+    float: left;
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+/*.short_descript p:first-child{
+    color: #707070;
+    font-size: 0px;
+    font-style: italic;
+    line-height: 16px;
+}*/
+
+.detail_descript {
+    display: inline-block;
+    float: left;
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.detail_descript ul {
+    clear: both;
+    list-style-image: url(../img/f_norm_new.gif);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.detail_descript a img {
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.detail_descript a img:hover {
+    border: 1px solid transparent;
+}
+
+.product{
+    display: inline-block;
+    float: left;
+    padding: 7px;
+    margin: 10px 0 5px 5px;
+    height: 100%;
+    width: 300px;
+}
+
+hr{
+    clear: both
+}
+
+input,
+textarea {
+    color: haki;
+    font-size: 14px;
+    font-style: italic;
+    border-radius: 5px;
+}
+
+input[type="name"],[type="theme"],
+textarea{
+    text-transform: capitalize; 
+}
+
+input[name="order"]:hover{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    background:#eaeaea;
+}
+
+input[name="order"]:active{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    background:#aaa;
+}
+
+input[type="email"]:focus{
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    background:#eaeaea;
+}
+
+table{
+    text-align: center
+}
+
+script{
+    width: 100%;
+    height: 374px;
+}
+
+.footer{
+    clear: both;
+    background: #cac;
+    height: 100px;
+}
+
+.footer p{
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
