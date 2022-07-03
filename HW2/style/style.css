@@ -7,7 +7,7 @@ body {
 }
 
 .header h1{
-    text-align: center
+    text-align: center;
 }
 
 .logo{
@@ -27,7 +27,7 @@ body {
 .menu li{
     display: inline-block;
     width: 120px;
-    text-align: center
+    text-align: center;
 }
 
 .menu li a:link {
@@ -61,7 +61,7 @@ h3, h4 {
 }
 
 hr{
-    clear: both
+    clear: both;
 }
 
 .footer{
@@ -75,4 +75,5 @@ hr{
     display: inline-block;
     margin-right: 50px;
     margin-top: 5px;
+    text-align: center;
 }
